@@ -1,2 +1,9 @@
-# Anonymous-Message-Board
-Free Code Camp - Information Security and Quality Assurance Projects - Anonymous Message Board
+#  Anonymous Message Board
+
+https://fcc-anon-messageboard.glitch.me
+
+
+##  Example get usage:
+
+https://fcc-anon-messageboard.glitch.me/b/tv
+
