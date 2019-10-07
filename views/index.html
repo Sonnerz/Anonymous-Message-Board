@@ -81,9 +81,7 @@
         type: "GET",
         url: "/api/boards",
         success: function (data) {
-          console.log(data);
           var boards = [];
-
           data.forEach(function (b, index) {
             var board = ['<div class="row">'];
             board.push('<div class="name"><a href=/b/' + b.board_title + ">" + b.board_title + '</a></div>')

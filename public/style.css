@@ -86,7 +86,8 @@ body {
 h1 {
   font-size: 3em;
   margin: 0;
-  padding: 50px 0;
+  padding:0;
+  padding-top: 50px;
   font-family: 'Galada', cursive;
   line-height: 1em;
 }
@@ -228,7 +229,7 @@ ol {
 }
 
 .reply {
-  border: 1px dashed black;
+  border: 1px solid rgb(49, 69, 90);
   background-color: rgba(230, 230, 230, 0.5);
   margin: 5px;
   padding: 5px;
@@ -241,7 +242,7 @@ ol {
 }
 
 .thread {
-  border: 1px dashed #39393A;
+  border: 1px solid rgb(49, 69, 90);
   background-color: rgba(230, 230, 230, 0.7);
   padding: 10px;
   margin-bottom: 5px;

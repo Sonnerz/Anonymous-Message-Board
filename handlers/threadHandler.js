@@ -63,7 +63,7 @@ function ThreadHandler() {
             board.threads.push(data._id);
             board.save(function (err){
               if (err) {console.log(err);}
-              res.end();
+              res.json(data);
             });
           }
       })
