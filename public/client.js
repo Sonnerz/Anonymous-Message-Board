@@ -157,43 +157,48 @@ $(function () {
   });
     
 
-  // open project reqs
-  $("#dialog1").dialog({
-    top: 100,
-    autoOpen: false,
-    show: {
-      effect: "blind",
-      duration: 100
-    },
-    hide: {
-      effect: "blind",
-      duration: 100
-    },
-    width: "90%",
-    maxWidth: "768px"
-  });
+  if(window.location.pathname == "/"){
+     
 
-  $("#opener").on("click", function () {
-    $("#dialog1").dialog("open");
-  });
+    // open project reqs
+    $("#dialog1").dialog({
+      top: 100,
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 100
+      },
+      hide: {
+        effect: "blind",
+        duration: 100
+      },
+      width: "90%",
+      maxWidth: "768px"
+    });
 
-  // open project tests
-  $("#dialog2").dialog({
-    top: 100,
-    autoOpen: false,
-    show: {
-      effect: "blind",
-      duration: 100
-    },
-    hide: {
-      effect: "blind",
-      duration: 100
-    },
-    width: "90%",
-    maxWidth: "768px"
-  });
+    $("#opener").on("click", function () {
+      $("#dialog1").dialog("open");
+    });
 
-  $("#openTests").on("click", function () {
-    $("#dialog2").dialog("open");
-  });
+    // open project tests
+    $("#dialog2").dialog({
+      top: 100,
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 100
+      },
+      hide: {
+        effect: "blind",
+        duration: 100
+      },
+      width: "90%",
+      maxWidth: "768px"
+    });
+
+    $("#openTests").on("click", function () {
+      $("#dialog2").dialog("open");
+    });
+    
+}
 }); // end function ()

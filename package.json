@@ -21,7 +21,9 @@
     "helmet": "^3.21.1",
     "mongoose": "^5.7.1",
     "chai-as-promised": "^7.1.1",
-    "sinon": "^7.5.0"
+    "sinon": "^7.5.0",
+    "supertest": "^4.0.2",
+    "should": "^13.2.3"
   },
   "engines": {
     "node": "4.4.3"

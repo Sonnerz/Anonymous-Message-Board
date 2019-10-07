@@ -9,7 +9,9 @@ dependencies:
   mocha: 6.2.0
   mongodb: 3.3.2
   mongoose: 5.7.1
+  should: 13.2.3
   sinon: 7.5.0
+  supertest: 4.0.2
   zombie: 6.1.4
 packages:
   /@sinonjs/commons/1.6.0:
@@ -1956,6 +1958,44 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
+  /should-equal/2.0.0:
+    dependencies:
+      should-type: 1.4.0
+    dev: false
+    resolution:
+      integrity: sha512-ZP36TMrK9euEuWQYBig9W55WPC7uo37qzAEmbjHz4gfyuXrEUgF8cUvQVO+w+d3OMfPvSRQJ22lSm8MQJ43LTA==
+  /should-format/3.0.3:
+    dependencies:
+      should-type: 1.4.0
+      should-type-adaptors: 1.1.0
+    dev: false
+    resolution:
+      integrity: sha1-m/yPdPo5IFxT04w01xcwPidxJPE=
+  /should-type-adaptors/1.1.0:
+    dependencies:
+      should-type: 1.4.0
+      should-util: 1.0.1
+    dev: false
+    resolution:
+      integrity: sha512-JA4hdoLnN+kebEp2Vs8eBe9g7uy0zbRo+RMcU0EsNy+R+k049Ki+N5tT5Jagst2g7EAja+euFuoXFCa8vIklfA==
+  /should-type/1.4.0:
+    dev: false
+    resolution:
+      integrity: sha1-B1bYzoRt/QmEOmlHcZ36DUz/XPM=
+  /should-util/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha512-oXF8tfxx5cDk8r2kYqlkUJzZpDBqVY/II2WhvU0n9Y3XYvAYRmeaf1PvvIvTgPnv4KJ+ES5M0PyDq5Jp+Ygy2g==
+  /should/13.2.3:
+    dependencies:
+      should-equal: 2.0.0
+      should-format: 3.0.3
+      should-type: 1.4.0
+      should-type-adaptors: 1.1.0
+      should-util: 1.0.1
+    dev: false
+    resolution:
+      integrity: sha512-ggLesLtu2xp+ZxI+ysJTmNjh2U0TsC+rQ/pfED9bUZZ4DKefP27D+7YJVVTvKsmjLpIi9jAa7itwDGkDDmt1GQ==
   /sift/7.0.1:
     dev: false
     resolution:
@@ -2127,6 +2167,15 @@ packages:
       node: '>= 4.0'
     resolution:
       integrity: sha512-GLQtLMCoEIK4eDv6OGtkOoSMt3D+oq0y3dsxMuYuDvaNUvuT8eFBuLmfR0iYYzHC1e8hpzC6ZsxbuP6DIalMFA==
+  /supertest/4.0.2:
+    dependencies:
+      methods: 1.1.2
+      superagent: 3.8.3
+    dev: false
+    engines:
+      node: '>=6.0.0'
+    resolution:
+      integrity: sha512-1BAbvrOZsGA3YTCWqbmh14L0YEq0EGICX/nBnfkfVJn7SrxQV1I3pMYjSzG9y/7ZU2V9dWqyqk2POwxlb09duQ==
   /supports-color/5.5.0:
     dependencies:
       has-flag: 3.0.0
@@ -2453,5 +2502,7 @@ specifiers:
   mocha: ^6.2.0
   mongodb: ^3.3.2
   mongoose: ^5.7.1
+  should: ^13.2.3
   sinon: ^7.5.0
+  supertest: ^4.0.2
   zombie: ^6.1.4
